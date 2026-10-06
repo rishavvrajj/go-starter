@@ -22,7 +22,7 @@ func main() {
 		StatusNotFound = 404
 		StatusInternalServerError = 500
 	)
-	
+
 	fmt.Printf("Status OK: %d\n", StatusOK)
 	fmt.Printf("Status Not Found: %d\n", StatusNotFound)
 	fmt.Printf("Status Internal Server Error: %d\n", StatusInternalServerError)
